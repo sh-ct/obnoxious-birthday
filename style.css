@@ -27,12 +27,11 @@ body {
     background-size: 200%;
     animation: gradient 15s ease infinite;
     border-radius: 50%;
-    height: 130vw;
-    width: 130vw;
-    position: absolute;
-    top: -60vh;
-    left: -10vw;
-    /* left: -50%; */
+    height: 200vw;
+    width: 200vw;
+    position: fixed;
+    left: -50%;
+    top: -50%;
 }
 
 
@@ -74,6 +73,7 @@ h1 {
     text-align: center;
     font-size: 5rem;
     z-index: 99;
+    opacity: 1;
 }
 
 
@@ -81,9 +81,9 @@ img {
     z-index: 99999999999;
     position: absolute;
     inset: -15% 0 0 0;
-    /* left: 10%; */
     width: 100vw;
     animation: image 20s ease infinite;
+    z-index: 98;
 }
 
 @media screen and (max-width: 400px) {
